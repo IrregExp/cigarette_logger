@@ -7,12 +7,11 @@ it would check for new emails from my phone number and write the time and amount
 I wanted to quit smoking (and actually did thanks to this project :smile:). Being curious as to how many cigarettes I smoked throught the day, I looked up many tutorials on using an ESP32 to send emails. This project is a culmination of my drive to quit smoking and my desire to learn new things.
 
 # Note
-This program is NOT secure. In order to use it, you must enable 'less secure apps' on your respective email client.\
-For this reason, it is recommended to create a new email account for this project. If anyone has any questions, concerns or feedback for this project, I'd greatly appreciate it :smile:
+This program is NOT secure. In order to use it, you must enable 'less secure apps' on your respective email client. For this reason, it is recommended to\
+create a new email account for this project. If anyone has any questions, concerns or feedback for this project, I'd greatly appreciate it :smile:
 
 # How to run this program
-The `recipient` of the email should be formatted as an email address: xxxx@website.com. If the recipient is a phone\
-number, the cell phone carrier will have a specific format to send an email as an SMS. For example, AT&T uses\ number@txt.att.net for SMS and number@mms.att.net for MMS.\
+The `recipient` of the email should be formatted as an email address: xxxx@website.com. If the recipient is a phone number, the cell phone carrier will have a\ specific format to send an email as an SMS. For example, AT&T uses number@txt.att.net for SMS and number@mms.att.net for MMS.\
 More information can be found at your respective carrier's website, or this [website](https://20somethingfinance.com/how-to-send-text-messages-sms-via-email-for-free/)
 
 ## Setting Up the ESP32
