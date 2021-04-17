@@ -7,7 +7,7 @@ it would check for new emails from my phone number and write the time and amount
 I wanted to quit smoking (and actually did thanks to this project :smile:). Being curious as to how many cigarettes I smoked throught the day, I looked up many tutorials on using an ESP32 to send emails. This project is a culmination of my drive to quit smoking and my desire to learn new things.
 
 # Note
-This program is NOT secure. In order to use it, you must enable 'less secure apps' on your respective email client. For this reason, it is recommended to\
+This program is NOT secure. In order to use it, you must enable 'less secure apps' on your respective email client. For this reason, it is recommended to
 create a new email account for this project. If anyone has any questions, concerns or feedback for this project, I'd greatly appreciate it :smile:
 
 # How to run this program
