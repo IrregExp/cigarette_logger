@@ -1,10 +1,10 @@
 # About
-This was built to log the number of cigarettes I smoked throughout the day. I connected an endstop to an ESP32, such\ that when the pack of cigarettes was opened, the endstop was triggered, causing the ESP32 to send a text to my phone.\ 
-When I received the text message, I would reply with the number of cigarettes I had taken from the pack which would\ then be sent to an email account I had set up for this purpose. With `main.py` running in the background on my home PC,\
+This was built to log the number of cigarettes I smoked throughout the day. I connected an endstop to an ESP32, such that when the pack of cigarettes was opened, the endstop was triggered, causing the ESP32 to send a text to my phone. 
+When I received the text message, I would reply with the number of cigarettes I had taken from the pack which would\ then be sent to an email account I had set up for this purpose. With `main.py` running in the background on my home PC,
 it would check for new emails from my phone number and write the time and amount to `data/log.csv`.
 
 # Motivation 
-I wanted to quit smoking (and actually did thanks to this project :smile:). Being curious as to how many cigarettes I\ smoked throught the day, I looked up many tutorials on using an ESP32 to send emails. This project is a culmination of\ my drive to quit smoking and my desire to learn new things.
+I wanted to quit smoking (and actually did thanks to this project :smile:). Being curious as to how many cigarettes I smoked throught the day, I looked up many tutorials on using an ESP32 to send emails. This project is a culmination of my drive to quit smoking and my desire to learn new things.
 
 # Note
 This program is NOT secure. In order to use it, you must enable 'less secure apps' on your respective email client.\
