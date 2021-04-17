@@ -1,6 +1,6 @@
 # About
 This was built to log the number of cigarettes I smoked throughout the day. I connected an endstop to an ESP32, such that when the pack of cigarettes was opened, the endstop was triggered, causing the ESP32 to send a text to my phone. 
-When I received the text message, I would reply with the number of cigarettes I had taken from the pack which would\ then be sent to an email account I had set up for this purpose. With `main.py` running in the background on my home PC,
+When I received the text message, I would reply with the number of cigarettes I had taken from the pack which would then be sent to an email account I had set up for this purpose. With `main.py` running in the background on my home PC,
 it would check for new emails from my phone number and write the time and amount to `data/log.csv`.
 
 # Motivation 
@@ -11,7 +11,7 @@ This program is NOT secure. In order to use it, you must enable 'less secure app
 create a new email account for this project. If anyone has any questions, concerns or feedback for this project, I'd greatly appreciate it :smile:
 
 # How to run this program
-The `recipient` of the email should be formatted as an email address: xxxx@website.com. If the recipient is a phone number, the cell phone carrier will have a\ specific format to send an email as an SMS. For example, AT&T uses number@txt.att.net for SMS and number@mms.att.net for MMS.\
+The `recipient` of the email should be formatted as an email address: xxxx@website.com. If the recipient is a phone number, the cell phone carrier will have a specific format to send an email as an SMS. For example, AT&T uses number@txt.att.net for SMS and number@mms.att.net for MMS.\
 More information can be found at your respective carrier's website, or this [website](https://20somethingfinance.com/how-to-send-text-messages-sms-via-email-for-free/)
 
 ## Setting Up the ESP32
